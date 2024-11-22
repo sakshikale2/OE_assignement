@@ -1,0 +1,21 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "This project provides a comprehensive guide to deploying a simple web application on AWS EC2 using GitHub, Node.js, and CodeDeploy. The guide includes setting up an EC2 instance, cloning a GitHub repository, installing necessary dependencies, configuring the CodeDeploy agent, and deploying an Express.js application. It also covers creating deployment scripts and setting up AWS CodeBuild for continuous integration to automate the deployment process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
